@@ -1,10 +1,4 @@
-/*
-	NAME:		HARSHIT ARORA
-	SUBJECT:	OOP244
-	STUDENT ID:	132895160
-	EMAIL:		harora4@myseneca.ca
-	SECTION:	C
-*/
+
 
 #include <iostream>
 #include "tools.h"
