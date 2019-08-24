@@ -1,0 +1,34 @@
+Name:		Harshit Arora
+Section: 	C
+Student ID:	132895160
+email:		harora4@myseneca.ca
+
+
+Ans1: A namespace is an container created to hold unique identifiers and symbols. 
+      An identifier defined in a namespace is associated only with that namespace thereby removing naming conflict.
+
+Ans2: While creating an applicaton its impossible to fit thousands of lines of code under one file so by creating header 
+      files we can store function's defination which can directly be used into a program by just including that header 
+      file.
+
+Ans3: While including some header files we are actually telling  compiler to copy the contents of header file into some
+      another file mostly .cpp file so it's enough to compile everything at once also it slows down the executing speed 
+      because it compiles single line multiple times.
+
+Ans4: So that the purpose of seperating the source code into small readable and sensible code isn't lost. Also all the 
+      above copying stuff.
+
+Ans5: While debugging its easier to know which part is corrupted. It increases the readibility and understandibility of code.
+      Also by breaking the code into smaller pieces the code is more maintainable, more testable, more resusable and the most
+      important is that we don't have to think about everything at once.
+
+Ans6: I learnt how to separate code into small modules, all stuff about header files and including and reusing them. Most 
+      important: the namespaces and purpose. Few things about object oriented programming too.
+
+
+QUIZ 1 REFLECTION:
+
+Ans1: A namespace is an container created to hold unique identifiers and symbols. 
+
+Ans7: Encapsulation: The wrapping up of data i.e. functions and members into single unit to protect them from misuse and
+      and interference.
