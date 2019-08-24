@@ -1,0 +1,39 @@
+
+Ans1: By putting the members in safe empty state we assure that the members doesn't have any garbage value inside them. Even though they have some default value that makes more sense than some garbage.
+Ans2: We could've used just one constructor with 5 parameters and make three different cases so that we may skip most of the lines.
+Ans3: By minimizing code duplication we're telling compiler to perform statements that requires compilation just once and not everytime while checking conditions. ALso it decreases compilation time and executes faster and consumes less space.
+Ans4: Because we're passing a class type object through parameter and by doing that we're  allowing that object to access every public member of that class.
+Ans5: Instead of using character array we could've used String class and object that exists well in C++.
+Ans6: After copying the meaningful characters we should set the next character to the meaningful character to null terminator i.e. '\0'.
+Ans7: Constructors,safe empty state,using this keyword,passing class type objects etc.
+
+Quiz4 reflections:
+NOTE: I had put extra '&' operator everywhere since I was a bit confused with that thing.
+Ans2:
+
+Mine-- Container operator +=(int sum,int sum);
+Actual-- int operator+=(int volume);
+Ans 3:
+
+mine-- bool cont operator>(Container cont left,Container cont right);
+Anctual: friend bool operator>(const Container&left, const Container& right);
+
+Ans4:
+mine-- blank
+Actual:Container temp=*this;
+
+Ans5:
+mine--full messed up
+Actual-- int Container::operator+=(int volume) {
+   if (m_volume < m_capacity - volume) {
+      m_volume += volume;
+   }
+   return m_volume;
+}
+
+Ans6:
+
+mine--messed up
+Actual: bool operator>(const Container& left, const Container& right) {
+   return left.m_volume > right.m_volume;
+}
