@@ -1,0 +1,8 @@
+
+
+ANS1: Size is 41. That can include 40 reasonable character and one null terminator i.e. '/0'.
+ANS2: Polymorphism and abstraction.
+ANS3: In C, a program can't have two same names for a function. Even C++ doesn't allow that until the function differs in parameter's length,name and types.
+ANS4: By using setf and precision to 2 while displaying.
+ANS5: Length of array and validity of SIN.
+ANS6: Setting precisions, checking validity of different things here SIN, using strncpy function.
