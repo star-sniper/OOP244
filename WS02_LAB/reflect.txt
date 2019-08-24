@@ -1,0 +1,12 @@
+Ans1: It gives rise to memory leak which means each time this operator is invoked the process will waste some address space until it runs out of it completely.
+Ans2: To copy existing elements before deleting the old array.
+Ans3: No, beacause inside a structure the array will be automatically deallocated when it gets out of scope.
+Ans4: It all depends on parameters, as main recogonises the type and number of parameters it calls that specific display().
+Ans5: Allocation and Deallocation of memory: importance and need, function overloading. 
+
+
+QUIZ 2 REFLECTION:
+
+Ans4: A reference is an alias for a variable or object.
+Ans5: Reference to integer
+      int& X=R; 
