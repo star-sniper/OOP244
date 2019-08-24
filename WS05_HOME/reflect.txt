@@ -1,0 +1,19 @@
+
+
+
+Ans1: When we return a reference, we basically means to say just give the function the access to the values of an object 
+      (since those values would be stored in some or other object) rather than actually making a new object since actually
+      making a new object would cost a heavy code if say fraction takes 10 mb in just copying. So by reference we're able 
+      to access values without making a copy thereby making the stuff quicker to respond.
+
+Ans2: By using *this we're actually returning the a clone of the current object so if any changes are made to that clone are
+      reflected to the original object. Moreover to use the nume and deno of current object we just need to put *this thus making
+      easire for us to access the current object's members.
+
+Ans3: (a + b).display();
+      (b + d).display();
+
+Ans4: We can even take negative values and simplify using more functions, even by restricting the entry of 0 in denominator or 
+      numerator.
+
+Ans5: Operator overloading: performing arithmatic operations on objects rather than fundamental types. Use of *this.
